@@ -212,6 +212,7 @@
 				1AA4A3821FF5EEED00469158 /* Resources */,
 				01D87513BE14211C209D48ED /* [CP] Embed Pods Frameworks */,
 				44E25E4F13F9A1EF7C3CA6B5 /* [CP] Copy Pods Resources */,
+				1AA4A3A71FF6DC4200469158 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -332,6 +333,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2FTests/Pods-2FTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		1AA4A3A71FF6DC4200469158 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash <(curl -s https://codecov.io/bash)";
 		};
 		3613A5A01B537E133AB226B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
