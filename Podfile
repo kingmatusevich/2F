@@ -9,7 +9,7 @@ target '2F' do
     pod 'RxSwift',        '~> 4.0'
     pod 'RxCocoa',        '~> 4.0'
     pod 'KeychainAccess', '~> 3.1'
-    pod 'OneTimePassword','~> 3.0'
+    pod 'OneTimePassword', :git => 'https://github.com/mattrubin/OneTimePassword.git', :branch => 'develop'
     pod 'QRCodeReader.swift', '~> 8.0'
   target '2FTests' do
     inherit! :search_paths
