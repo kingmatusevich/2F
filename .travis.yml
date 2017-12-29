@@ -1,3 +1,5 @@
 language: swift
 xcode_project: 2F.xcodeproj # path to your xcodeproj folder
 xcode_scheme: 2FTests
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
