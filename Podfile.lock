@@ -4,12 +4,12 @@ PODS:
   - OneTimePassword (3.0):
     - Base32 (~> 1.1.2)
   - QRCodeReader.swift (8.0.4)
-  - RxBlocking (4.0.0):
+  - RxBlocking (4.1.0):
     - RxSwift (~> 4.0)
-  - RxCocoa (4.0.0):
+  - RxCocoa (4.1.0):
     - RxSwift (~> 4.0)
-  - RxSwift (4.0.0)
-  - RxTest (4.0.0):
+  - RxSwift (4.1.0)
+  - RxTest (4.1.0):
     - RxSwift (~> 4.0)
 
 DEPENDENCIES:
@@ -36,10 +36,10 @@ SPEC CHECKSUMS:
   KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
   OneTimePassword: 47aef215d4c7c85742d37f77fb2c69f7c1d88c11
   QRCodeReader.swift: 9730cfa7ed5f0dd839765df8cf18d41db20e4081
-  RxBlocking: 923c2c8106d80d7c2d6b276afd66ce3b10824836
-  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
-  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
-  RxTest: 0041e792cede35e53e4749f378d21482af0e9d12
+  RxBlocking: 193d33fad26f00a4e60831481938486deaaaa200
+  RxCocoa: cc1fec49cdc8fabe645964de7c51c099a36c2aa8
+  RxSwift: 4219941c1244c88002901bd87a69d3aea9ae71f0
+  RxTest: cc62dd7e02049f21dfc910d0c4ca8fee1ecd4f74
 
 PODFILE CHECKSUM: cb47585684b5172b0a179327ad3a696324a914c2
 
