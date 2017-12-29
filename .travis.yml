@@ -4,6 +4,6 @@ xcode_project: 2F.xcodeproj # path to your xcodeproj folder
 xcode_scheme: 2FTests
 install: pod install --repo-update
 script:
-  - xcodebuild -scheme 2F -workspace 2F.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=9.1' build test
+  - xcodebuild -scheme 2F -workspace 2F.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11.2' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
